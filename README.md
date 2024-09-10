@@ -46,25 +46,25 @@ python -m pip install -r "requirements.txt"
 ```
 rfm_pyramid_score/
 │
-├── rfm_pyramid_score/             # Pacote principal do projeto
-│   ├── __init__.py                # Inicializa os módulos do pacote
-│   ├── analysis.py                # Análise de RFM e Pyramid Score
-│   ├── price_elasticity.py        # Cálculo da elasticidade-preço
-│   ├── price_corridor.py          # Cálculo do corredor de preços do cliente
-│   ├── group_price_corridor.py    # Cálculo do corredor de preços por segmento
-│   ├── churn_prediction.py        # Módulo para a previsão de churn
+├── rfm_pyramid_score/                # Pacote principal do projeto
+│   ├── __init__.py                   # Inicializa os módulos do pacote
+│   ├── rfm_pyramid_score.py          # Análise de RFM e Pyramid Score
+│   ├── price_elasticity.py           # Cálculo da elasticidade-preço
+│   ├── price_corridor.py             # Cálculo do corredor de preços do cliente
+│   ├── group_price_corridor.py       # Cálculo do corredor de preços por segmento
+│   ├── churn_prediction.py           # Módulo para a previsão de churn
 │
-├── tests/                         # Testes automatizados
-│   ├── test_analysis.py           # Testes para o módulo de análise
-│   ├── test_price_elasticity.py   # Testes para elasticidade-preço
-│   ├── test_price_corridor.py     # Testes para corredor de preços
+├── tests/                            # Testes automatizados
+│   ├── test_analysis.py              # Testes para o módulo de análise
+│   ├── test_price_elasticity.py      # Testes para elasticidade-preço
+│   ├── test_price_corridor.py        # Testes para corredor de preços
 │   ├── test_group_price_corridor.py  # Testes para corredor de preços por segmento
-│   ├── test_churn_prediction.py   # Testes para o módulo de previsão de churn
+│   ├── test_churn_prediction.py      # Testes para o módulo de previsão de churn
 │
-├── LICENSE                        # Licença do projeto
-├── README.md                      # Documentação do projeto
-├── setup.py                       # Arquivo de configuração do pacote
-├── requirements.txt               # Dependências do projeto
+├── LICENSE                           # Licença do projeto
+├── README.md                         # Documentação do projeto
+├── setup.py                          # Arquivo de configuração do pacote
+├── requirements.txt                  # Dependências do projeto
 ```
 
 ## Rodando Tasks
