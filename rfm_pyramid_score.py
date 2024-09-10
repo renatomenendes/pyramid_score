@@ -1,10 +1,3 @@
-import pandas as pd
-import numpy as np
-import warnings
-import matplotlib.pyplot as plt
-
-warnings.filterwarnings('ignore')
-
 class PyramidScoreAnalysis:
     """
     Classe para realizar análise de Pyramid Score (Recência, Frequência e Valor Monetário) e segmentação de clientes.
@@ -111,8 +104,8 @@ class PyramidScoreAnalysis:
         ]
 
         labels = [
-            'Champions', 'Promising', 'Loyal Accounts', 'Potential Loyalist', 'Standard Accounts', 
-            'Low Spenders', 'Need Attention', 'About to Sleep', 'At Risk', 'Lost'
+            'Platinum Tier', 'Gold Tier', 'Silver Tier', 'Bronze Tier', 'Prime Clients', 
+            'Core Clients', 'Entry-Level Clients', 'Low Contribution', 'Minimal Value', 'Residual Tier'
         ]
 
         df['segment'] = np.select(conditions, labels, default='Other')
