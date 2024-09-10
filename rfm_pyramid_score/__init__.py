@@ -1,6 +1,6 @@
 # rfm_pyramid_score/__init__.py
-from .analysis import PyramidScoreAnalysis
-from .price_elasticity import PriceElasticity
-from .price_corridor import PriceCorridor
-from .group_price_corridor import GroupPriceCorridor
-from .churn_prediction import ChurnPrediction
+from rfm_pyramid_score.price_elasticity import PriceElasticity
+from rfm_pyramid_score.price_corridor import PriceCorridor
+from rfm_pyramid_score.group_price_corridor import GroupPriceCorridor
+from rfm_pyramid_score.churn_prediction import ChurnPrediction
+from rfm_pyramid_score.rfm_pyramid_score import PyramidScoreAnalysis
