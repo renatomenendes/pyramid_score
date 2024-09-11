@@ -1,3 +1,5 @@
+import pandas as pd
+
 class PyramidScoreAnalysis:
     """
     Classe para realizar análise de Pyramid Score (Recência, Frequência e Valor Monetário) e segmentação de clientes.
