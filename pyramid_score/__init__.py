@@ -1,4 +1,5 @@
 # pyramid_score/__init__.py
+import pandas as pd
 from pyramid_score.price_elasticity import PriceElasticity
 from pyramid_score.price_corridor import PriceCorridor
 from pyramid_score.group_price_corridor import GroupPriceCorridor
