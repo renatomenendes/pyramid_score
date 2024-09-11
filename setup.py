@@ -2,7 +2,7 @@
 from setuptools import setup, find_packages
 
 setup(
-    name='rfm_pyramid_score',
+    name='pyramid_score',
     version='0.1',
     description='Análise de clientes com RFM Pyramid Score',
     author='Renato Cesar Menendes Cruz',

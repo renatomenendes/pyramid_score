@@ -1,4 +1,4 @@
-# rfm_pyramid_score/group_price_corridor.py
+# pyramid_score/group_price_corridor.py
 
 import pandas as pd
 import numpy as np

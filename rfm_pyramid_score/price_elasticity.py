@@ -1,4 +1,4 @@
-# rfm_pyramid_score/price_elasticity.py
+# pyramid_score/price_elasticity.py
 
 import pandas as pd
 import numpy as np

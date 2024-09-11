@@ -1,4 +1,4 @@
-# rfm_pyramid_score/churn_prediction.py
+# pyramid_score/churn_prediction.py
 
 import pandas as pd
 import numpy as np
