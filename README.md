@@ -1,14 +1,14 @@
-# RFM Pyramid Score - Análise de Clientes com Segmentação e Predição de Churn
+# Pyramid Score - Análise de Clientes com Segmentação e Predição de Churn
 
 © 2024 Renato Menendes. Todos os direitos reservados sob a Licença MIT.
 
 ## Descrição
 
-**RFM Pyramid Score** é um pacote para realizar análises avançadas de clientes, incluindo **segmentação RFM (Recência, Frequência e Valor Monetário)**, **elasticidade de preços**, **previsão de churn (cancelamento)** e **corredor de preços**, além de calcular o comportamento de grupos comparáveis ou segmentos de mercado.
+** Pyramid Score** é um pacote para realizar análises avançadas de clientes, incluindo **segmentação por Recência, Frequência e Valor Monetário **, **elasticidade de preços**, **previsão de churn (cancelamento)** e **corredor de preços**, além de calcular o comportamento de grupos comparáveis ou segmentos de mercado.
 
 ## Funcionalidades
 
-- **Análise de RFM e Pyramid Score**: Classificação dos clientes em diferentes segmentos com base em seu valor e comportamento transacional.
+- **Análise de Pyramid Score**: Classificação dos clientes em diferentes segmentos com base em seu valor e comportamento transacional.
 - **Elasticidade de Preço**: Cálculo da sensibilidade dos clientes às mudanças de preço com base no histórico de compras.
 - **Corredor de Preços**:
   - **Cliente**: Identificação do menor e maior preço pago por um cliente específico.
