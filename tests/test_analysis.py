@@ -1,6 +1,6 @@
 # tests/test_analysis.py
 import pandas as pd
-from rfm_pyramid_score import PyramidScoreAnalysis
+from pyramid_score import PyramidScoreAnalysis
 
 def test_pyramid_analysis():
     # Criação de dados sintéticos simples

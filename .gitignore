@@ -1,0 +1,20 @@
+# Ignorar todos os diretórios __pycache__
+__pycache__/
+
+# Ignorar arquivos de cache do Python
+*.py[cod]
+
+# Ignorar outros arquivos temporários do Python
+*.pyo
+*.pyd
+
+# Outros arquivos comuns a ignorar
+*.log
+*.tmp
+*.swp
+*.bak
+*.old
+
+# Ignorar pastas de ambientes virtuais (se você estiver usando)
+venv/
+.env/

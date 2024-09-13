@@ -26,12 +26,12 @@ Este pacote foi desenvolvido com **Python 3.10**.
 Crie um novo ambiente para rodar o projeto:
 
 ```bash
-conda create -n rfm_pyramid_score -y python=3.10
+conda create -n pyramid_score -y python=3.10
 ```
 
 Para ativar o ambiente, use:
 ```bash
-conda activate rfm_pyramid_score
+conda activate pyramid_score
 ```
 
 ### Instalação das dependências
@@ -44,27 +44,27 @@ python -m pip install -r "requirements.txt"
 
 ## Estrutura do Projeto
 ```
-rfm_pyramid_score/
+pyramid_score/
 │
-├── rfm_pyramid_score/             # Pacote principal do projeto
-│   ├── __init__.py                # Inicializa os módulos do pacote
-│   ├── analysis.py                # Análise de RFM e Pyramid Score
-│   ├── price_elasticity.py        # Cálculo da elasticidade-preço
-│   ├── price_corridor.py          # Cálculo do corredor de preços do cliente
-│   ├── group_price_corridor.py    # Cálculo do corredor de preços por segmento
-│   ├── churn_prediction.py        # Módulo para a previsão de churn
+├── pyramid_score/                # Pacote principal do projeto
+│   ├── __init__.py                   # Inicializa os módulos do pacote
+│   ├── pyramid_score.py          # Análise de RFM e Pyramid Score
+│   ├── price_elasticity.py           # Cálculo da elasticidade-preço
+│   ├── price_corridor.py             # Cálculo do corredor de preços do cliente
+│   ├── group_price_corridor.py       # Cálculo do corredor de preços por segmento
+│   ├── churn_prediction.py           # Módulo para a previsão de churn
 │
-├── tests/                         # Testes automatizados
-│   ├── test_analysis.py           # Testes para o módulo de análise
-│   ├── test_price_elasticity.py   # Testes para elasticidade-preço
-│   ├── test_price_corridor.py     # Testes para corredor de preços
+├── tests/                            # Testes automatizados
+│   ├── test_analysis.py              # Testes para o módulo de análise
+│   ├── test_price_elasticity.py      # Testes para elasticidade-preço
+│   ├── test_price_corridor.py        # Testes para corredor de preços
 │   ├── test_group_price_corridor.py  # Testes para corredor de preços por segmento
-│   ├── test_churn_prediction.py   # Testes para o módulo de previsão de churn
+│   ├── test_churn_prediction.py      # Testes para o módulo de previsão de churn
 │
-├── LICENSE                        # Licença do projeto
-├── README.md                      # Documentação do projeto
-├── setup.py                       # Arquivo de configuração do pacote
-├── requirements.txt               # Dependências do projeto
+├── LICENSE                           # Licença do projeto
+├── README.md                         # Documentação do projeto
+├── setup.py                          # Arquivo de configuração do pacote
+├── requirements.txt                  # Dependências do projeto
 ```
 
 ## Rodando Tasks
@@ -74,7 +74,7 @@ rfm_pyramid_score/
 Para usar os módulos de análise, basta importar as classes e executar o código de acordo com suas necessidades. Exemplo:
 
 ```python
-from rfm_pyramid_score import PyramidScoreAnalysis
+from pyramid_score import PyramidScoreAnalysis
 
 # Suponha que já tenhamos um DataFrame com dados de transações
 df = ...
@@ -99,7 +99,7 @@ Após ativar o ambiente e instalar as dependências, você pode rodar a análise
 Exemplo de cálculo da elasticidade-preço:
 
 ```python
-from rfm_pyramid_score import PriceElasticity
+from pyramid_score import PriceElasticity
 
 # Suponha que temos um DataFrame com preços e quantidades
 df = ...

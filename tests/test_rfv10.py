@@ -1,6 +1,6 @@
 # tests/test_rfv10.py
 import pandas as pd
-from rfm_pyramid_score.rfv10 import RFV10
+from pyramid_score.rfv10 import RFV10
 
 def test_rfv10_analysis():
     # Criação de dados sintéticos

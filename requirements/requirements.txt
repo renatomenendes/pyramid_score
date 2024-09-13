@@ -1,7 +1,0 @@
-pandas
-numpy==1.23.0
-matplotlib
-scikit-learn
-tensorflow==2.12.1
-keras==2.10
-tensorboard==2.10
