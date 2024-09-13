@@ -31,5 +31,5 @@ jobs:
 
     # Step 4: Run unit tests
     - name: Run unit tests
-     run: |
+      run: |
        python -m unittest discover tests
